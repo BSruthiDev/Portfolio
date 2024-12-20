@@ -1,0 +1,19 @@
+input EmailInput {
+  name: String!
+  email: String!
+  message: String!
+}
+
+type EmailResponse {
+  success: Boolean!
+  message: String
+}
+
+
+type Mutation {
+  sendEmail(input: EmailInput!): EmailResponse
+}
+
+type Query {
+    resume: String
+  }
