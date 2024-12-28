@@ -1,0 +1,29 @@
+{
+    "workExperience": [
+        {
+            "title": "Associate Consultant",
+            "company": "Capgemini",
+            "duration": "Mar 2022 - Sept 2024",
+            "description": "Configured and managed Salesforce platforms to streamline operations, developed Apex solutions with reusable Lightning Web Components (LWC), and designed modular components using HTML, CSS, and JavaScript. Implemented efficient state management, Wire Service for real-time UI updates, and automated workflows using Flows, Process Builder, and Approval Processes."
+        },
+        {
+            "title": "Java Developer",
+            "company": "Sysintelli",
+            "duration": "Dec 2019 - Mar 2020",
+            "description": "Developed appointment scheduling and billing solutions using React for front-end and Spring Boot with Microservices for back-end. Improved performance by 33%, integrated Kafka for asynchronous messaging, and utilized Hibernate and Spring Data JPA for efficient database operations. Implemented mutation testing for 95% code coverage, secured RESTful APIs with Spring Security, and streamlined CI/CD pipelines using Jenkins and GitHub."
+        },
+        {
+            "title": "Software Developer Associate",
+            "company": "Infor Global Solutions",
+            "duration": "Oct 2016 - Apr 2018",
+            "description": "Resolved bugs in Java applications, enhanced front-end features using React, and developed responsive web pages with HTML5, Bootstrap, and JavaScript. Worked on complex SQL queries with MSSQL Server, built back-end APIs using Java and Spring Boot, and implemented logging with Log4j. Collaborated on solutions following Agile methodologies, conducted code reviews, and documented technical specifications."
+        },
+        {
+            "title": "Software Developer Associate",
+            "company": "Progen Business Solution",
+            "duration": "Mar 2014 - Sep 2016",
+            "description": "Developed enterprise applications using HTML, JSP, JavaScript, jQuery, and AJAX for the front-end, and Struts Framework integrated with JDBC for the back-end. Built SOAP-based web services, created dynamic user interfaces with JSP and jQuery, and designed RESTful APIs for system communication. Optimized SQL queries and contributed to Agile projects with Jira."
+        }
+        
+    ]
+}

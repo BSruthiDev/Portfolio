@@ -1,0 +1,46 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Aditi Das",
+      "description": "Working with Sruthi Bandi has been an absolute pleasure. Her technical expertise and problem-solving skills have greatly contributed to the success of our projects.",
+      "avatar": "linkedinone.png",
+      "title": "Manager, Capgemini"
+    },
+    {
+      "id": 2,
+      "name": "Amit Chandak",
+      "description": "Sruthi Bandi's innovative mindset and dedication to excellence are unmatched. Her contributions have been instrumental in achieving our organizational goals.",
+      "avatar": "amit.jpg",
+      "title": "Chief Technology Officer, Progen Business Solution"
+    },
+    {
+      "id": 3,
+      "name": "Uday Kumar",
+      "description": "Sruthi Bandi brings unparalleled focus and technical expertise to her work. Her ability to collaborate and drive results makes her an invaluable team member.",
+      "avatar": "udayone.jpg",
+      "title": "Software Engineer, Infor Global Solutions"
+    },
+    {
+      "id": 4,
+      "name": "Mayank Verma",
+      "description": "Sruthi Bandi's commitment to delivering high-quality solutions is commendable. She is a talented engineer who consistently exceeds expectations.",
+      "avatar": "linkedinone.png",
+      "title": "Manager, Progen Business Solution"
+    },
+    {
+      "id": 5,
+      "name": "Ambrit Kumar",
+      "description": "Sruthi Bandi demonstrates exceptional skill and leadership in her work. Her ability to solve complex problems and deliver results is truly impressive.",
+      "avatar": "ambrit.jpg",
+      "title": "Senior Analyst, Capgemini"
+    },
+    {
+      "id": 6,
+      "name": "Amarendar Akula",
+      "description": "Sruthi Bandi is a highly skilled and dedicated professional. Her innovative solutions and collaborative approach have made a significant impact on our projects.",
+      "avatar": "ravi.jpg",
+      "title": "Principal Software Engineer, Infor Global Solutions"
+    }
+  ]
+}

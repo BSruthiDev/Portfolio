@@ -1,0 +1,55 @@
+{
+    "technologies": [
+      { 
+        "id": 1, 
+        "name": "React", 
+        "description": "A JavaScript library for building user interfaces, particularly for single-page applications with reusable components."
+      },
+      { 
+        "id": 2, 
+        "name": "Node.js", 
+        "description": "A JavaScript runtime built on Chrome's V8 engine, enabling server-side scripting with JavaScript."
+      },
+      { 
+        "id": 3, 
+        "name": "Java", 
+        "description": "A versatile, platform-independent programming language known for its stability, scalability, and widespread use in enterprise environments."
+      },
+      { 
+        "id": 4, 
+        "name": "HTML5", 
+        "description": "The latest version of the HyperText Markup Language, essential for creating modern web pages with improved multimedia support and semantic elements."
+      },
+      { 
+        "id": 5, 
+        "name": "CSS3", 
+        "description": "A style sheet language used for describing the presentation of a document written in HTML or XML, enabling responsive and visually appealing web design."
+      },
+      { 
+        "id": 6, 
+        "name": "Database", 
+        "description": "A structured collection of data stored electronically, facilitating efficient data retrieval, manipulation, and management."
+      },
+      { 
+        "id": 7, 
+        "name": "AWS", 
+        "description": "Amazon Web Services, a comprehensive cloud computing platform offering services like compute power, storage, and databases, among others."
+      },
+      { 
+        "id": 8, 
+        "name": "Salesforce", 
+        "description": "A leading customer relationship management (CRM) platform that helps businesses manage their sales, customer service, and marketing efforts."
+      },
+      { 
+        "id": 9, 
+        "name": "JavaScript", 
+        "description": "A high-level programming language used primarily for building interactive and dynamic websites. It is the core language for web development alongside HTML and CSS."
+      },
+      { 
+        "id": 10, 
+        "name": "GitHub", 
+        "description": "A cloud-based platform for version control and collaborative development, enabling developers to share and manage code repositories with team members."
+      }
+    ]
+  }
+  

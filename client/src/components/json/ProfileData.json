@@ -1,0 +1,69 @@
+{
+  "skills": {
+    "sections": [
+      {
+        "title": "Technical",
+        "items": [
+          "JavaScript/ReactJS/HTML5/CSS3/EJS(Embedded JavaScript)/AJAX",
+          "Node.js/Express",
+          "Java/Spring Boot/Hibernate",
+          "GraphQL",
+          "MongoDB/MySQL/PostgreSQL",
+          "Bootstrap/jQuery/Material UI",
+          "Microservices/RESTful APIs/SOAP-based Web Services",
+          "Spring Security",
+          "Kafka",
+          "Docker/Kubernetes",
+          "AWS(Lambda,S3,DynamoDB,API Integrations)",
+          "Firebase",
+          "Mutation Testing/JUnit/Mockito",
+          "Agile/Scrum",
+          "Salesforce (Apex,Lightning Web Components,Flows)",
+          "Git/GitHub",
+          "Jenkins",
+          "Log4j",
+          "UML Modeling",
+          "WebSocket",
+          "PayPal API"
+        ]
+      },
+      {
+        "title": "Professional",
+        "items": [
+          "Effective communication",
+          "Team player",
+          "Strong problem solver",
+          "Good time management"
+        ]
+      }
+    ]
+  },
+  "education": [
+    {
+      "degree": "PG Diploma in Web Development",
+      "institution": "Conestoga",
+      "years": "2023 - 2024"
+    },
+    {
+      "degree": "B.Tech in Computer Science",
+      "institution": "Abhinav Hi-Tech College",
+      "years": "2009 - 2013"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "Professional"
+    },
+    {
+      "language": "Telugu",
+      "proficiency": "Native"
+    }
+  ],
+  "interests": [
+    "Travelling",
+    "Listening to music",
+    "Learning new things",
+    "Exercising"
+  ]
+}

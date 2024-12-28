@@ -1,0 +1,61 @@
+{
+    "questions": [
+      {
+        "question": "What is the difference between Java and JavaScript?",
+        "answer": "Java is a class-based, object-oriented programming language used for building robust, high-performance applications, while JavaScript is a dynamic, interpreted language used for front-end development, enabling interactive web pages."
+      },
+      {
+        "question": "What is the purpose of React Context API?",
+        "answer": "The React Context API provides a way to share values between components without having to pass props down manually through every level of the component tree. It helps manage state globally in a React application."
+      },
+      {
+        "question": "What is the role of Spring Boot in backend development?",
+        "answer": "Spring Boot simplifies the development of production-ready Spring-based applications by providing built-in configuration, embedded web servers, and production-ready features, reducing the need for complex configurations."
+      },
+      {
+        "question": "What is GraphQL and how does it differ from REST?",
+        "answer": "GraphQL is a query language for APIs that allows clients to request specific data from the server, while REST typically returns a fixed structure. GraphQL enables more efficient data fetching by allowing the client to request exactly the data it needs."
+      },
+      {
+        "question": "What is the purpose of Kafka in a microservices architecture?",
+        "answer": "Kafka is a distributed event streaming platform used for building real-time data pipelines and streaming applications. It enables microservices to communicate asynchronously via event-driven architecture."
+      },
+      {
+        "question": "What is Docker and how is it used in application deployment?",
+        "answer": "Docker is a platform for developing, shipping, and running applications in containers, ensuring that the application runs consistently across different environments. It simplifies deployment and scalability in a microservices architecture."
+      },
+      {
+        "question": "What are the advantages of using MongoDB over MySQL?",
+        "answer": "MongoDB is a NoSQL database that provides flexibility for handling unstructured data and offers horizontal scalability, which is ideal for applications that require high availability and can scale efficiently. MySQL is a relational database and is better for structured data and transactional applications."
+      },
+      {
+        "question": "What is the role of an index in a relational database?",
+        "answer": "An index in a relational database is used to speed up query processing by providing a quick lookup of data. It is created on columns that are frequently searched or sorted to reduce the time needed to find data."
+      },
+      {
+        "question": "What is DynamoDB, and how does it differ from traditional relational databases?",
+        "answer": "DynamoDB is a fully managed NoSQL database service provided by AWS that offers fast and predictable performance with seamless scalability. Unlike traditional relational databases, DynamoDB does not use structured query language (SQL) and is designed to scale horizontally, handling large volumes of unstructured data."
+      },
+      {
+        "question": "What is the purpose of AWS Lambda?",
+        "answer": "AWS Lambda is a serverless computing service that allows you to run code in response to events, such as file uploads or API requests, without provisioning or managing servers. It automatically scales based on the workload."
+      },
+      {
+        "question": "What is the difference between microservices and monolithic architecture?",
+        "answer": "In a monolithic architecture, all components of the application are tightly coupled into a single codebase, while in microservices architecture, each component or service is independently developed, deployed, and scaled, allowing for greater flexibility and maintainability."
+      },
+      {
+        "question": "What is a RESTful API, and how does it differ from SOAP?",
+        "answer": "A RESTful API is an architectural style that uses HTTP methods to request data in a stateless manner, making it lightweight and scalable. SOAP (Simple Object Access Protocol) is a more rigid protocol that requires XML-based messages and is typically used for enterprise-level applications with more complex operations."
+      },
+      {
+        "question": "What is the role of containers in microservices architecture?",
+        "answer": "Containers encapsulate the application code along with its dependencies, configuration, and environment, making it easy to deploy and scale microservices independently across different environments without worrying about conflicts."
+      },
+      {
+        "question": "What is Kubernetes, and why is it used in microservices deployment?",
+        "answer": "Kubernetes is an open-source platform for automating the deployment, scaling, and management of containerized applications. It is widely used in microservices architecture to manage large-scale deployments of containerized applications, ensuring high availability and fault tolerance."
+      }
+    ]
+  }
+  
