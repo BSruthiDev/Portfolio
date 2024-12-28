@@ -1,0 +1,22 @@
+{
+    "projectdetail":[
+        {
+            "title": "QuickSwift",
+            "company": "Company Name",
+            "description": "The QuickSwift project is focused on tackling the inefficiency and unpredictability of same-day deliveries in urban areas. With a robust tech stack, including MongoDB for scalable data storage, React for building dynamic UIs, Node.js for the backend, and potential integrations like PayPal for payments and WebSocket for real-time updates, the project is well-equipped for success. Additionally, Firebase will be used to efficiently store and manage delivery-related images, while GraphQL will enable flexible and efficient communication between the front end and back end. The emphasis on user experience and addressing market gaps through research positions QuickSwift as a high-quality, user-friendly solution for the logistics and e-commerce sectors"
+        },
+        {
+            "title": "Employee Management",
+            "company": "Company Name",
+            "description": "The Employee Management System (EMS) is a MERN stack-based application integrated with GraphQL to efficiently manage employee data. The project separates concerns with an API server for backend operations and a UI server for the front end, bundled using Webpack. Users can view, create, update, and delete employee records with features like dynamic filtering, nested routes for detailed views, and input validation. The system includes React components such as EmployeeDirectory, EmployeeSearch, EmployeeTable, and EmployeeCreate, with navigation handled through routing and query parameters. MongoDB stores employee data, while GraphQL APIs enable seamless CRUD operations, providing a scalable and user-friendly solution."
+        },
+        {
+            "title": "DriveTest Management System",
+            "company": "Company Name",
+            "description": "The kiosk application for G and G2 drive tests is designed to streamline the processes at a drive test center. Built using Node.js and Express, the application provides a user-friendly interface developed with EJS (Embedded JavaScript) for dynamic rendering of web pages. MongoDB serves as the database for efficient storage and retrieval of user and test-related data. The application allows drivers to manage personal and car details, book drive test appointments, and access dedicated pages for G and G2 tests. Secure user authentication ensures personalized access, enabling users to update details and view test information. Additionally, an admin module is included to manage appointment slots and test schedules, enhancing efficiency and reliability. This solution improves the overall experience for both drivers and administrators, ensuring smooth scheduling and streamlined workflows."
+        }
+        
+        
+    ]
+    
+}
