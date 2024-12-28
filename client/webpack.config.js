@@ -5,8 +5,9 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const config = {
     entry: "./src/index.js",
     output: {
-        path: path.resolve(__dirname, "public"),
-         publicPath: "/"
+      path: path.resolve(__dirname, "build"),
+      filename: 'bundle.js',
+      publicPath: "/"
     },
     devServer: {
         static: {
@@ -49,8 +50,8 @@ const config = {
           filename: "./index.html",
         }),
       ],
-      mode: "development",
-}
+      mode: "production"
+    }
 
 module.exports = () => {
     return config;
