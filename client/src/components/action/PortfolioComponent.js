@@ -131,7 +131,7 @@ I specialize in creating high-quality software solutions tailored to meet busine
 
             <Box
     sx={{
-        padding: { xs: 5, md: 2 }, // Adjusted padding for better responsiveness
+        paddingTop: { xs: 20, md: 2 }, // Adjusted padding for better responsiveness
         borderRadius: '8px',
         display: 'flex',
         justifyContent: 'center',

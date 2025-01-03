@@ -17,7 +17,7 @@ const ListProjects = ({ ProjectsList }) => {
     const { onItemClick ,isSidebarDarkMode} = useContext(GlobalContext);
 
     return (
-        <Box sx={{ display: 'flex',paddingLeft:4}}>
+        <Box sx={{ display: 'flex',paddingLeft: { xs: 2, md: 4 }, paddingRight: { xs: 2, md: 4 }}}>
             <Grid container spacing={4}>
                 {ProjectsList.projects.map((project, index) => (
                     <Grid item xs={12} md={6} key={index}>
@@ -26,26 +26,27 @@ const ListProjects = ({ ProjectsList }) => {
                             borderRadius: 0,
                             '&:hover .overlay': { opacity: 1 },
                             position: 'relative',
-                            height: '90%',
+                            display: 'flex',
+                            flexDirection: 'column',
                         }}>
                             <Grid container direction={{ xs: 'column', md: 'row' }}>
-                                <Grid item xs={12} md={5} sx={{ display: 'flex' }}>
-                                    <img
-                                        src={importImage(project.avatar)} // Use the dynamic image import
-                                        alt={project.projectHeading}
-                                        style={{
-                                            width:'100%',
-                                            height: '100%',
-                                            objectFit: 'cover',
-                                        }} 
-                                    />
-                                </Grid>
-                                <Grid item xs={12} md={6} sx={{ display: 'flex' ,padding:1}}>
-                                    <CardContent>
+                            <Grid item md={5} sx={{ display: 'flex', width: '100%', height: {xs:'150px',md:'250px'}, overflow: 'hidden' }}>
+    <img
+        src={importImage(project.avatar)} // Use the dynamic image import
+        alt={project.projectHeading}
+        style={{
+            width: '100%', // Ensure the image takes up full width
+            objectFit: 'cover', // Maintain aspect ratio while filling the container
+        }}
+    />
+</Grid>
+
+                                <Grid item md={6} sx={{ display: 'flex' }}>
+                                    <CardContent >
                                         <Typography
                                             variant="h1"
                                             sx={{
-                                                fontSize: '1.2rem',
+                                                fontSize: { xs: '1rem', sm: '1.2rem' },
                                                 fontFamily: ['"Segoe UI"', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif'].join(','),
                                                 fontWeight: 'bold',
                                                 marginBottom: 1,
@@ -58,9 +59,8 @@ const ListProjects = ({ ProjectsList }) => {
                                         <Typography
                                             variant="body2"
                                             sx={{
-                                                fontSize: '0.8rem',
+                                                fontSize: { xs: '0.7rem', sm: '0.85rem' },
                                                 fontFamily: ['"Segoe UI"', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif'].join(','),
-                                                marginBottom: 1,
                                                 lineHeight: 1.6,
                                                 color:isSidebarDarkMode?'rgba(255, 255, 255, 0.95)':''
 

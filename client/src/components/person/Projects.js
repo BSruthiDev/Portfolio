@@ -23,14 +23,11 @@ const Projects = () => {
 
     const filteredProjects = {
         projects: ProjectsList?.projects?.filter(project =>
-            ["Progen", "National Grid"].includes(project.client)
+            ["Progen", "Capgemini"].includes(project.client)
         ) || []
     };
     
 
-    console.log('filteredProjects:', filteredProjects);
-    
-    console.log('ProjectsList:', ProjectsList); // Debugging step
 
     return (
         <Box

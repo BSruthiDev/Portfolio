@@ -21,7 +21,7 @@ const buttonResumeProps = {
 }
 
 const ResumeComponent = () => {
-    const phoneNumber = '+1 (647) 896-3980'; 
+    const phoneNumber = '+1 (226) 770-3068'; 
     const email = 'bandisruthi1991@gmail.com'; 
     const location = 'Cambridge';
     const { isSidebarDarkMode } = useContext(GlobalContext);
