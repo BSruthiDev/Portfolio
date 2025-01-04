@@ -135,8 +135,8 @@ I’m a software engineer skilled in both frontend and backend development, with
           display: 'flex',
           justifyContent: 'center'
         }}>
-          <SocialIcons Icon={LinkedIn}  link="https://www.linkedin.com/in/sruthi-bandi-b023937a/"/>
-          <SocialIcons Icon={GitHub} link="https://github.com/Sbandi1991?tab=repositories" />
+          <SocialIcons Icon={LinkedIn}  link="https://www.linkedin.com/in/bandisruthi/"/>
+          <SocialIcons Icon={GitHub} link="https://github.com/BSruthiDev" />
           <SocialIcons Icon={() => <FontAwesomeIcon icon={faSalesforce} />} link="https://www.salesforce.com/trailblazer/sbandi81" />
           </Box>
       </Box>
